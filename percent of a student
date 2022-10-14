@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+class percent{
+    public static void main(String[] args){
+     Scanner sc = new Scanner(System.in);
+     
+System.out.println("enter the studend marks 1st subject");
+        int a = sc.nextInt();
+        
+        System.out.println("enter second subject marks");
+        int b = sc.nextInt();
+        
+        System.out.println("enetr the third subject marks");
+        int c = sc.nextInt();
+        
+        System.out.println("enter fourth subject marks");
+        int d = sc.nextInt();
+        
+        System.out.println("enetr the fifth subject marks");
+        int e = sc.nextInt();
+        
+        float sum = a+b+c+d+e;
+        float ans = (sum/500)*100; 
+        System.out.println("the resul is");
+        System.out.println(ans);
+    }
+}
